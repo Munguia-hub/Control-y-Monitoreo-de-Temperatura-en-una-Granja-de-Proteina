@@ -1,0 +1,64 @@
+[
+    {
+        "id": "4f6a7cea8d40319d",
+        "type": "ui_chart",
+        "z": "9253bb35a38b90f1",
+        "name": "",
+        "group": "e8c6fa50059e3c60",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "label": "Histórico Temperatura",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "-5",
+        "ymax": "100",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": true,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "x": 500,
+        "y": 360,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e8c6fa50059e3c60",
+        "type": "ui_group",
+        "name": "Histórico",
+        "tab": "166e85bfec1a52f0",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "166e85bfec1a52f0",
+        "type": "ui_tab",
+        "name": "Estado de la granja",
+        "icon": "dashboard",
+        "order": 2,
+        "disabled": false,
+        "hidden": false
+    }
+]
