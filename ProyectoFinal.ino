@@ -1,9 +1,15 @@
-/*La configuración del sensor DHT, el cliente MQTT y la conexión WiFi permanecen sin cambios.
-El pin 2 se configura como salida digital, y este pin se utilizará para controlar el ventilador.
-En el bucle principal, se mide la temperatura y la humedad al igual que antes.
+/*La configuración del sensor DHT, el cliente MQTT y la conexión WiFi 
+permanecen sin cambios.
+El pin 2 se configura como salida digital, y este pin se utilizará 
+para controlar el ventilador.
+En el bucle principal, se mide la temperatura y la humedad al 
+igual que antes.
 El control del ventilador se realiza utilizando el pin 12.
-Si la temperatura es mayor a 29 grados Celsius, el pin 12 se configura en estado alto (5V),
-lo que encenderá el ventilador. Si la temperatura es menor o igual a 29 grados, el pin 12 se configura en estado bajo (0V), 
+Si la temperatura es mayor a 29 grados Celsius, el pin 12 se 
+configura en estado alto (5V),
+lo que encenderá el ventilador. Si la temperatura es menor 
+o igual a 29 grados, 
+el pin 12 se configura en estado bajo (0V), 
 apagando el ventilador.*/
 
 #include <WiFi.h>
